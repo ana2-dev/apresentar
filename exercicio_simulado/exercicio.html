@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio simulado</title>
+    <link rel="stylesheet" href="exercicio.css">
+    <style>
+        table{
+            width: 100%;
+            border: solid 2px #ff0000
+        }
+        header, footer{
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <header aria-label="Cabeçalho da pagina">
+            <h1>Título da página</h1>
+            <p>Parágrafo Simples</p>
+            <nav style="background-color: #ffffff;">
+                <ul>
+                    <li><a href="#">Link 1</a></li>
+                    <li><a href="#">Link 2</a></li>
+                    <li><a href="#">Link 3</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main class="flex">
+            <div class="caixa">
+            <section>
+                <h2>Título da Section</h2>
+                <p style="border:dotted 1px #ff0000; padding:2px">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa sapiente, eos possimus harum corrupti provident cum tenetur laboriosam assumenda nulla aut impedit! Dolor nostrum praesentium fugiat corrupti architecto ipsum veritatis. Dolor nostrum praesentium fugiat corrupti architecto ipsum veritatis.</p>
+                <div class="flex">
+                <img src="img/logo.jpg" alt="não é mais arara">
+                <img src="img/logo.jpg" alt="não é mais arara">
+                <img src="img/logo.jpg" alt="não é mais arara">
+                </div>
+            </section>
+            </div>
+            <div class="caixa">
+            <article>
+                <h2>Título do Article</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem illo laboriosam id porro quasi expedita magni numquam architecto distinctio, sapiente est inventore odio nostrum consectetur provident consequatur libero corrupti ducimus.</p>
+            </article>
+            <aside aria-label="Tabela contendo dados">
+                <table border="1">
+                    <caption>Titulo da tabela</caption>
+                    <thead>
+                        <tr>
+                            <th>Item 1</th>
+                            <th>Item 2</th>
+                            <th>Item 3</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Item 1</td>
+                            <td>Item 2</td>
+                            <td>Item 3</td>
+                        </tr>
+                        <tr>
+                            <td>Item 1</td>
+                            <td>Item 2</td>
+                            <td>Item 3</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="3">Rodapé da tabela</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </aside>
+            </div>
+        </main>
+        <footer>
+            <p>Parágrafo Simples</p>
+        </footer>
+    </div>
+</body>
+</html>

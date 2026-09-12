@@ -1,0 +1,37 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#container{
+    width: 1000px;
+    border: solid 3px #000000;
+}
+header, nav, main, section, article, aside, footer{
+    border: solid 1px #000000;
+    padding:5px;
+    margin:5px;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav a{
+    text-decoration: none;
+    color:#000000;
+}
+nav a:hover{
+    text-decoration: underline;
+    color:#ff0000;
+}
+.caixa{
+    width: 100%;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+.flex img{
+    width: 145px;
+    margin:3px;
+}
